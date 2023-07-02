@@ -102,8 +102,7 @@ function App() {
                       addTask={addTask} >
                 <div>
                     <div>Many intresting information</div>
-                    <div>Many intresting information</div>
-                    <div>Many intresting information</div>
+
                  </div>
             </Todolist>
         </div>
