@@ -62,7 +62,7 @@ export const Todolist:React.FC<PropsType>=({children, ...props}) => {
             />
             <button onClick={addTask}>+</button>
         </div>
-        <ul>
+        <ul ref={listRef}>
             {
                 props.tasks.map(t => {
 
